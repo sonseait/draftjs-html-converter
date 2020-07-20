@@ -30,8 +30,8 @@ export const App: React.FunctionComponent = () => {
           </Layout.Sider> */}
           <Layout style={{ padding: "0 24px 24px" }}>
             <Layout.Content className="site-layout-background">
-              <Route path="/users" component={Converter}></Route>
-              <Redirect to="/users"></Redirect>
+              <Route path="/" component={Converter}></Route>
+              <Redirect to="/"></Redirect>
             </Layout.Content>
           </Layout>
         </Layout>
